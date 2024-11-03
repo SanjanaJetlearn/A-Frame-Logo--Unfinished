@@ -20,11 +20,28 @@
 
     <a-entity Animation="property: object3D.scale.y from: 0.0001; to: 1; delay 200; dur: 1000; easing: easeOutCubic"
     rotation="-20 0 0" position="0 0 10.75" scale="1 0.0001 1" event-set__loaded="visible: true; _delay:300" visible="false">
+<a-box width="12.5" depth="1" height="30" color="#EF2D5E" position="0 15 0">
 
+<a-entity Animation="property: object3D.scale.y; from: 0.0001; to: 1; delay: 800; dur: 800; easing: easeoutCubic" rotation="-140 0 0" position="0 15 0" scale="1 0.0001 1">
+    <a-box width="12.49" depth=".1" height="30" color="#24CAFF" position="0 15 -.52" shader="flat"></a-box>
+    <a-box width="12.5" depth="1" height="30" color="#EF2D5E" position="0 15 0"></a-box>
+</a-entity>
+</a-box>
 
 </a-entity>
 
 </a-entity>
+
+<a-entity Animation="property: object3D.scale.y; from: 0.0001; to: 1; delay: 800; dur: 600; easing: easeoutCubic;"
+rotation="-90 0 0" position="0 8 7.5" scale="1 0.0001 1" event-set__loaded="visible: true; _delay: 500" visible="false">
+ <a-box width="12.45" depth=".1" height="14" color="#F2E646" position="0 7 .52" shader="flat"></a-box>   
+ <a-box width="12.5" depth="1" height="14" color="#EF2D5E" position="0 7 0"></a-box>   
+</a-entity>
+
+<a-box animation="property: object3D.position.z; to: 340; dur:36000; loop: true;" position="-280 240 180"
+color="white" opacity="0.25" width="18" depth="28" height="6"></a-box>
+<a-box animation="property: object3D.position.z; to: 120; dur:48000; delay: 12000; loop: true; easing: linear;" position="-280 240 180"
+color="white" opacity="0.25" width="18" depth="28" height="6"></a-box>
 
     </a-scene>
         
